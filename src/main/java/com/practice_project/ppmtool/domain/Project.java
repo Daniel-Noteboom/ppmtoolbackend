@@ -1,2 +1,4 @@
-package com.practice_project.ppmtool.domain;public class Project {
+package com.practice_project.ppmtool.domain;
+
+public class Project {
 }
