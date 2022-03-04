@@ -8,6 +8,7 @@ import org.springframework.stereotype.Repository;
 public interface ProjectRepository extends CrudRepository<Project, Long> {
 
     Project findByProjectIdentifier(String projectId);
+    Iterable<Project> findAllByProjectLeader(String username);
 
     @Override
     Iterable<Project> findAll();
